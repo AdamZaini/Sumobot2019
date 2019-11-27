@@ -1,6 +1,6 @@
 # Sumobot2019
 
-On 23rd March 2019, Imperial College Robotics Society (ICRS) held a sumobot competition at their university. The objective of the competition is to simply knock the opposing robot off the playing arena in 120s. Every robot has to comply with the power and size restrictions set by the host. The robot can either be autonomous or human-controlled. I have opted for an autonomous robot. This was because I did not have enough time to purchase a Bluetooth or WiFi module. I had an IR module in hand, however, I found it to be inconsistent and unreliable. The robot utilised 3 ultrasonic sensors and 2 infrared sensors. A library from http://www.ipb.pt/~jpcoelho/downloads.htm was used. The code adopted the following strategy.
+On 23rd March 2019, Imperial College Robotics Society (ICRS) held a sumobot competition at their university. The objective of the competition is to simply knock the opposing robot off the playing arena in 120s. Every robot has to comply with the power and size restrictions set by the host. The robot can either be autonomous or human-controlled. I have opted for an autonomous robot. This was because I did not have enough time to purchase a Bluetooth or WiFi module. I had an IR module in hand, however, I found it to be inconsistent and unreliable. The robot utilised 3 ultrasonic sensors, 2 infrared sensors and a MD25 motor controller. A library from http://www.ipb.pt/~jpcoelho/downloads.htm was used for the MD25 motor controller. The code adopted the following strategy.
 
 1. Start timer
 2. Move forward at half speed
